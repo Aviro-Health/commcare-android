@@ -1,6 +1,6 @@
 # Install strings
 install.keep.trying=Keep trying if connection is interrupted
-install.barcode.top=Welcome to CommCare!
+install.barcode.top=Welcome to Aviro DCF!
 install.barcode.bottom=Please choose an installation method below
 install.manual=Please enter the URL
 install.ready.top=Almost there!

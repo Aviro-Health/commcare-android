@@ -20,7 +20,7 @@
             android:paddingLeft="@dimen/content_min_margin"
             android:paddingTop="@dimen/content_min_margin"
             android:scaleType="fitCenter"
-            android:src="@drawable/commcare_logo"
+            android:src="@drawable/aviro_logo_black_slogan"
             android:layout_marginEnd="@dimen/content_min_margin"
             android:paddingStart="@dimen/content_min_margin" />
 

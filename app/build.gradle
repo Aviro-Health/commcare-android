@@ -458,7 +458,7 @@ android {
             applicationIdSuffix ".debug"
             def applicationId = "org.commcare.dalvik.debug"
             project.ext.COMMCARE_APP_ID = applicationId
-            def applicationName = "CommCare Debug"
+            def applicationName = "Aviro Debug"
             resValue "string", "application_name", applicationName
             def odkProviderStr = "org.commcare.dalvik.debug.provider.odk"
             manifestPlaceholders = [odkProvider: odkProviderStr]

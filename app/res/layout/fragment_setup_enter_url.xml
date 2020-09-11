@@ -18,7 +18,11 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <include layout="@layout/grid_header_top_banner"/>
+            <include layout="@layout/grid_header_top_banner"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                />
 
 
             <LinearLayout
