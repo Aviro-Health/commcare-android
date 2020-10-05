@@ -12,8 +12,8 @@
         <clip>
             <shape>
                 <gradient
-                    android:startColor="@color/cc_brand_color"
-                    android:endColor="@color/cc_brand_color"
+                    android:startColor="@color/cc_brand_progress_bar_aviro"
+                    android:endColor="@color/cc_brand_progress_bar_aviro"
                     />
             </shape>
         </clip>

@@ -62,7 +62,7 @@ home.forms.incomplete.indicator=${1} (${0})
 home.forms.saved=Saved
 home.sync=Sync with Server
 home.unsent.forms.indicator=Unsent Forms: ${0}
-home.logout=Log out of CommCare
+home.logout=Log out of Engage
 home.report=Report an Issue
 # IMPORTANT: do NOT change the name of this key for any reason; HQ uses it for the training root menu
 training.root.title=Training
@@ -81,12 +81,12 @@ home.menu.formdump=Manage SD
 home.menu.wifi.direct=Wifi Direct
 home.menu.connection.diagnostic=Connection Test
 home.menu.saved.forms=Saved Forms
-home.menu.about=About CommCare
+home.menu.about=About Engage
 home.menu.advanced=Advanced
 home.menu.disable.analytics=Opt Out of Analytics
 home.menu.pin.set=Set My PIN
 home.menu.pin.change=Change My PIN
-home.menu.update.commcare=Update CommCare
+home.menu.update.commcare=Update Engage
 
 menu.update.from.ccz=Offline Update
 menu.update.from.hub=Update from Local Hub
@@ -107,7 +107,7 @@ menu.data.change.logs=Data Change Logs
 menu.enable.rate.limit.popup=Enable Rate Limit Error Popup
 menu.enable.manual.form.quarantine=Enable Manual Form Quarantine
 
-install.fail.error=We encountered an ${0} error processing your request. Please try again later. If the problem persists, contact CommCare Support.
+install.fail.error=We encountered an ${0} error processing your request. Please try again later. If the problem persists, contact Engage Support.
 
 sync.success.sent.none=No forms sent to server!
 sync.success.sent.singular=1 form sent to server!
@@ -115,13 +115,13 @@ sync.success.sent=${0} forms sent to server!
 sync.success.synced=Sync Successful! Your information is up to date.
 
 sync.fail.unsent=Having issues communicating with the server to send forms. Will try again later.
-sync.fail.timeout=CommCare didn't receive a response from the remote service in time, it may be busy! Please wait a while and try your request again later.
+sync.fail.timeout=Engage didn't receive a response from the remote service in time, it may be busy! Please wait a while and try your request again later.
 sync.fail.auth.loggedin=Password has changed. Please log in with updated credentials
-sync.fail.empty.url=Sync url is not set. Please contact CommCare Support.
+sync.fail.empty.url=Sync url is not set. Please contact Engage Support.
 sync.fail.bad.data=Server provided improperly formatted data, please try again or contact your supervisor.
 sync.fail.bad.local=Your information was fetched, but a problem occurred with the log in. Please try again.
 sync.fail.bad.network=Couldn't contact server. Please make sure an internet connection is available or try again later.
-sync.fail.server.error=The server encountered an error processing your data. Please try again later. If the problem persists, contact CommCare Support.
+sync.fail.server.error=The server encountered an error processing your data. Please try again later. If the problem persists, contact Engage Support.
 sync.fail.rate.limited.server.error=Our servers are unavailable at this time. Please try again later.
 sync.fail.unknown=An unexpected issue occurred during sync. Please try to sync again.
 sync.fail.cancelled=Sync was cancelled. Please retry.
@@ -137,7 +137,8 @@ form.send.rate.limit.error.message=Form submissions will be saved locally on you
 rate.limit.error.dialog.do.not.show=Don’t show again
 rate.limit.error.dialog.close=Close
 
-auth.over.http=CommCare can't connect with authentication to an insecure (HTTP) server.
+auth.over.http=Engage can't connect with authentication to an insecure (HTTP) server.
+auth.over.http=Engage can't connect with authentication to an insecure (HTTP) server.
 
 sync.communicating.title=Communicating with Server
 sync.waiting.title=Waiting for Server Progress
@@ -156,12 +157,12 @@ sync.progress=Completed: ${0}/${1}
 sync.recover.needed=Updating phone data from server.
 sync.recover.started=Recovering local DB State. Please do not turn off the app!
 
-form.entry.segfault=There was an unrecoverable error during form entry! If the problem persists, seek CommCare Support
+form.entry.segfault=There was an unrecoverable error during form entry! If the problem persists, seek Aviro Support
 form.entry.processing=Processing your Form
 form.entry.processing.title=Processing Form
 form.entry.complete.save.success=Form successfully completed
 form.entry.incomplete.save.success=Form saved as incomplete
-form.entry.save.error=Sorry, form save failed. Please contact CommCare Support to look into the issue.
+form.entry.save.error=Sorry, form save failed. Please contact Aviro Support to look into the issue.
 form.entry.save.invalid.unicode=Could not save '${0}' text in form.
 form.entry.finish.button=FINISH
 form.entry.restart.after.expiration=You were logged out due to session expiration. The form you were in the middle of has been saved and resumed.
@@ -222,8 +223,8 @@ app.workflow.forms.view.quarantine.reason=View Full Reason for Quarantine
 notifications.prompt.details=Select for details. ${0}
 notifications.prompt.more=(${0} More...)
 
-update.success.refresh=CommCare has been updated! Please log in again.
-update.success=CommCare has been updated!
+update.success.refresh=Engage has been updated! Please log in again.
+update.success=Engage has been updated!
 
 form.record.filter.subandpending=Filter By: All Completed Forms
 form.record.filter.submitted=Filter By: Only Submitted Forms
@@ -239,10 +240,10 @@ form.archive.purge.title=Removing out-of-date archived forms
 form.archive.purge.message=Removing archived forms that are past their validation date.
 
 app.storage.missing.title=SD Card Missing
-app.storage.missing.message=Your device's SD card has been removed, please return the SD card to continue using CommCare
-app.storage.missing.button=Shutdown CommCare
+app.storage.missing.message=Your device's SD card has been removed, please return the SD card to continue using Engage
+app.storage.missing.button=Shutdown Engage
 
-commcare.restart=Restart CommCare
+commcare.restart=Restart Engage
  
 cchq.case=Case
 select.placeholder.message=Please select a ${0}
@@ -338,15 +339,15 @@ main.sync.demo=You cannot sync data down from the server when using practice mod
 main.sync.demo.has.forms=Your forms have been submitted to the server; however, you cannot retrieve forms from the server in practice mode.
 main.sync.demo.no.forms=You have no forms to submit and you cannot retrieve forms from the server in practice mode.
 
-home.start.demo=Explore CommCare Practice Mode
+home.start.demo=Explore Engage Practice Mode
 home.sync.demo=Submit Practice Data to Server
 home.logout.demo=Log out of Practice Mode
-home.sync.message.last.demo=You are using CommCare in practice mode
+home.sync.message.last.demo=You are using Engage in practice mode
 demo.mode.feature.unavailable=Sorry, this app uses a feature that is not available in Practice mode. Please log in as a named user.
 
 demo.mode.warning.title=Starting Practice Mode
-demo.mode.warning.main=You have logged into CommCare in Practice mode. Practice mode is for testing and practice only.
-demo.mode.warning.emphasized=Forms submitted in practice mode will be ignored by CommCare HQ!
+demo.mode.warning.main=You have logged into Engage in Practice mode. Practice mode is for testing and practice only.
+demo.mode.warning.emphasized=Forms submitted in practice mode will be ignored by Engage HQ!
 
 select.search.label=Search:
 select.search.status=${0} of ${1} results for your search: "${2}"
@@ -382,7 +383,7 @@ connection.test.run.title=Running Connection Tests...
 connection.test.now.running=Currently running tests.
 connection.test.update.message=Working.
 connection.test.error.message=There's been an error.
-connection.test.report.button.message=Send to commCare.
+connection.test.report.button.message=Send to Engage.
 
 connection.task.internet.fail=You are not connected the Internet. Please run this test again after connecting to Wi-Fi or mobile data.
 connection.task.internet.success=You are connected to the Internet.
@@ -390,7 +391,7 @@ connection.task.remote.ping.fail=There has been an issue while reaching the Inte
 connection.task.commcare.html.fail=There is an issue with CommCare's server. Please report this problem to CommCare.
 connection.task.success=No problems were detected.
 
-connection.task.report.commcare.popup=Your logs are being sent to CommCare!
+connection.task.report.commcare.popup=Your logs are being sent to Aviro!
 connection.task.unset.posturl=There has been an error on CommCare's end. Please report this problem to CommCare Support.
 
 connection.captive_portal.title=No Internet Detected
@@ -514,28 +515,28 @@ login.attempt.fail.changed.action=If you had unsent data or incomplete forms on 
 
 notification.credential.mismatch.title=Mismatching Login Credentials
 notification.credential.mismatch.detail=The server recognized your password, but the password it sent to the device does not match 
-notification.credential.mismatch.action=Contact CommCare Support for assistance with your account
+notification.credential.mismatch.action=Contact Aviro Support for assistance with your account
 
 notification.restore.remote.error.title=Remote Server Error
 notification.restore.remote.error.detail=The server had a problem trying to generate your sync data.
-notification.restore.remote.error.action=Try to sync again immediately, and then in an hour or so. If the sync still doesn't succeed, contact CommCare Support.
+notification.restore.remote.error.action=Try to sync again immediately, and then in an hour or so. If the sync still doesn't succeed, contact Aviro Support.
 
 notification.restore.nonetwork.title=Couldn't Reach Server. Please check your network connection
 notification.restore.nonetwork.detail=Couldn't reach the server due to bad network connectivity.
 
-notification.restore.nonetwork.badpass.title=Either the password you entered was incorrect, or CommCare couldn't reach the server
+notification.restore.nonetwork.badpass.title=Either the password you entered was incorrect, or Aviro couldn't reach the server
 notification.restore.nonetwork.badpass.detail=Try re-entering your password. If this doesn't work, you will need a stronger network connection to log in with this user.
 
 notification.bad.certificate.title=Couldn't securely connect to the server. 
-notification.bad.certificate.detail=CommCare couldn't validate the security information provided by the remote server. 
+notification.bad.certificate.detail=Aviro couldn't validate the security information provided by the remote server.
 notification.bad.certificate.action=Check your device's time and date to make sure they are correct. If the problem persists, try to connect to a secure server with the phone's browser
 
 notification.restore.storagefull.title=Couldn't save your application's resources
-notification.restore.storagefull.detail=CommCare was not able to save one or more of your application's resources on the device. This could be because the entire application was too large, or because an individual fixture exceeded 1MB.
+notification.restore.storagefull.detail=Aviro was not able to save one or more of your application's resources on the device. This could be because the entire application was too large, or because an individual fixture exceeded 1MB.
 notification.restore.storagefull.action=Check the amount of space available on your device. If the SD card isn't full, then it's likely one of your fixtures is too large (> 1MB) and needs to be reduced or split.
 
 notification.restore.unknown.title=Unknown Error during Restore
-notification.restore.unknown.detail=CommCare had trouble dealing with something that happened when you tried to log in 
+notification.restore.unknown.detail=Aviro had trouble dealing with something that happened when you tried to log in
 notification.restore.unknown.action=Try to log in again. If you receive this message again, force close the application from the Manage Applications menu on the phone. If the error persists, contact CommCare Support.
 
 notification.restore.cancelled.title=Sync cancelled
@@ -558,18 +559,18 @@ notification.restore.baddata.title=Bad Server Response
 notification.restore.baddata.detail=CommCare had trouble processing the network response. Please try again.
 
 notification.restore.data.requires.intervention.title=Bad Server Response
-notification.restore.data.requires.intervention.detail=CommCare tried to sync invalid data from the server. This may have been caused by a misconfiguration in your app and must be fixed in order to log in. Please contact your supervisor or CommCare Support.
+notification.restore.data.requires.intervention.detail=Aviro tried to sync invalid data from the server. This may have been caused by a misconfiguration in your app and must be fixed in order to log in. Please contact your supervisor or CommCare Support.
 notification.restore.data.requires.intervention.action=\nTechnical details:\n${0}
 
 notification.install.installed.title=App Succesfully Installed
 notification.install.installed.detail=Your app install is up to date.
 
 notification.install.missing.title=Couldn't find your application.  Please check and retype your code, or verify your internet connection. 
-notification.install.missing.detail=A serious problem occurred while CommCare was trying to download an update (or install your app). CommCare couldn't find the resource with id: ${0}. This is often due to a bad internet connection.
+notification.install.missing.detail=A serious problem occurred while Aviro was trying to download an update (or install your app). Engage couldn't find the resource with id: ${0}. This is often due to a bad internet connection.
 notification.install.missing.action=This failure is generally due to a bad or inconsistent network connection, but may be a sign of a problem with the application if it persists. Try again with a better connection and report to a supervisor if the install still fails.
 
 notification.install.invalid.title=A part of your application is invalid.
-notification.install.invalid.detail=CommCare found an issue with the '${0}' resource:
+notification.install.invalid.detail=Engage found an issue with the '${0}' resource:
 notification.install.invalid.action=${0}
 
 notification.install.invalid.reference.title=Bad resource location in the application
@@ -588,7 +589,7 @@ notification.install.cancel.title=Update Cancelled
 notification.install.cancel.detail=An app update event was cancelled before it completed.
 notification.install.cancel.action=Please restart the update in order to update your app.
 
-notification.install.badreqs.title=Incompatible CommCare Version for Install
+notification.install.badreqs.title=Incompatible Engage Version for Install
 notification.install.badreqs.detail=${0}
 notification.install.badreqs.action=${0}
 
@@ -828,11 +829,11 @@ permission.form.gps.title=Permission to capture location during form entry
 permission.form.gps.message=CommCare would like to capture your location and provide it to forms you complete.
 permission.acquire.required=Acquire Required Permissions
 permission.camera.title=Permission for Camera
-permission.camera.message=In order to take a picture, CommCare needs permission to use your device camera.
-permission.camera.denial.message=CommCare doesn't have the permission to use camera. Please enable via Android's settings.
+permission.camera.message=In order to take a picture, Engage needs permission to use your device camera.
+permission.camera.denial.message=Engage doesn't have the permission to use camera. Please enable via Android's settings.
 permission.location.title=Permission for Location
-permission.location.message=In order to record location, CommCare needs permission to use your device location.
-permission.location.denial.message=CommCare doesn't have the permission to use location. Please enable via Android's settings.
+permission.location.message=In order to record location, Engage needs permission to use your device location.
+permission.location.denial.message=Engage doesn't have the permission to use location. Please enable via Android's settings.
 
 custom.acknowledgement=
 case.error.self.index=Case '${0}' cannot index itself. In order to login you must change the case on the server.
@@ -849,8 +850,8 @@ fingerprints.scanned=Fingerprints scanned: ${0}
 
 settings.developer.options=Developer Options
 settings.developer.title=Developer Options
-settings.main.title=CommCare > Settings
-settings.advanced.title=CommCare > Advanced
+settings.main.title=Engage > Settings
+settings.advanced.title=Engage > Advanced
 clear.user.data=Clear User Data
 clear.user.data.warning.title=Warning!
 clear.user.data.warning.message=Are you sure you want to clear all mobile user data? Once you clear user data, all unsent and incomplete forms will be deleted and you won't be able to access them.
@@ -919,14 +920,14 @@ drawing.boundary.map.stop.tracking=Stop
 drawing.boundary.map.ok.tracking=Done
 drawing.boundary.map.redo.tracking=Redo
 
-in.app.update.installed.title=Finish CommCare Update
-in.app.update.installed.detail=CommCare just downloaded an update. You need to restart CommCare to finish the installation.
+in.app.update.installed.title=Finish Engage Update
+in.app.update.installed.detail=Engage just downloaded an update. You need to restart Engage to finish the installation.
 in.app.update.dialog.cancel=Cancel
 in.app.update.dialog.restart=Restart
-in.app.update.downloading.title=Downloading CommCare Update
-in.app.update.downloading.detail=CommCare update in progress
-in.app.update.downloading.action=CommCare is updating in the background. You can continue using CommCare while the download completes.
-in.app.update.error.not.allowed=Couldn't install CommCare update due to device state(low battery or low disk space).
+in.app.update.downloading.title=Downloading Engage Update
+in.app.update.downloading.detail=Engage update in progress
+in.app.update.downloading.action=Engage is updating in the background. You can continue using Engage while the download completes.
+in.app.update.error.not.allowed=Couldn't install Engage update due to device state(low battery or low disk space).
 in.app.update.error.partially.allowed=Couldn't install CommCare update due to internal failure. Please update using PlayStore.
 in.app.update.error.unknown=Couldn't install CommCare update due to an unknown error. Please try later.
 in.app.update.error.playstore=Updating CommCare requires an official PlayStore app which is missing. Please install PlayStore.

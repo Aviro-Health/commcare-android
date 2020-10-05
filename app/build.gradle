@@ -18,6 +18,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'com.google.firebase.crashlytics'
 apply from: 'jacoco.gradle'
+apply plugin: 'com.google.gms.google-services'
 
 repositories {
     google()
@@ -254,7 +255,7 @@ android {
         applicationId "org.commcare.dalvik"
         project.ext.COMMCARE_APP_ID = applicationId
         // set the app name
-        def applicationName = "CommCare"
+        def applicationName = "Engage"
         resValue "string", "application_name", applicationName
         def odkProviderStr = "org.commcare.android.provider.odk"
         manifestPlaceholders = [
@@ -391,7 +392,7 @@ android {
             buildConfigField "String", "ODK_AUTHORITY", "\"${odkProviderStr}\""
 
             // set the app name
-            def applicationName = "CommCare LTS"
+            def applicationName = "Engage LTS"
             resValue "string", "application_name", applicationName
         }
 
@@ -420,7 +421,7 @@ android {
             buildConfigField "String", "ODK_AUTHORITY", "\"${odkProviderStr}\""
 
             // set the app name
-            def applicationName = "${ccVersion} QA CommCare"
+            def applicationName = "${ccVersion} QA Engage"
             resValue "string", "application_name", applicationName
         }
 
@@ -458,7 +459,7 @@ android {
             applicationIdSuffix ".debug"
             def applicationId = "org.commcare.dalvik.debug"
             project.ext.COMMCARE_APP_ID = applicationId
-            def applicationName = "Aviro Debug"
+            def applicationName = "Engage debug"
             resValue "string", "application_name", applicationName
             def odkProviderStr = "org.commcare.dalvik.debug.provider.odk"
             manifestPlaceholders = [odkProvider: odkProviderStr]

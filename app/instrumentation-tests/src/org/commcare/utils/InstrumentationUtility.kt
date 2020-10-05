@@ -113,7 +113,7 @@ object InstrumentationUtility {
         // Click on About CommCare 4 times to become developer.
         for (i in 0..3) {
             openOptionsMenu()
-            onView(withText("About CommCare"))
+            onView(withText("About Engage"))
                     .perform(click())
             onView(withText("OK"))
                     .perform(click())
@@ -163,7 +163,8 @@ object InstrumentationUtility {
         gotoHome()
         onView(withId(R.id.home_gridview_buttons))
                 .perform(swipeUp())
-        onView(withText("Log out of CommCare"))
+        onView(withText("Log out of Engage"))
+        onView(withText("Log out of Engage"))
                 .perform(click())
     }
 

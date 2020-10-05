@@ -18,7 +18,7 @@
             android:paddingTop="@dimen/content_min_margin"
             android:scaleType="fitCenter"
             android:adjustViewBounds="true"
-            android:src="@drawable/aviro_logo_black_slogan"
+            android:src="@drawable/ic_ithaka_logo"
             android:layout_marginEnd="@dimen/content_min_margin"
             android:paddingStart="@dimen/content_min_margin"></ImageView>
 

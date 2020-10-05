@@ -16,7 +16,7 @@
         android:paddingLeft="@dimen/standard_spacer"
         android:paddingRight="@dimen/standard_spacer"
         android:scaleType="fitCenter"
-        android:src="@drawable/aviro_logo_black_slogan"
+        android:src="@drawable/ic_ithaka_logo"
         android:visibility="visible"
         android:paddingStart="@dimen/standard_spacer"
         android:paddingEnd="@dimen/standard_spacer" />

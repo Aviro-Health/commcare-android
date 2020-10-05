@@ -3,6 +3,7 @@ package org.commcare.activities;
 import android.content.Context;
 import android.content.Intent;
 import android.text.Spannable;
+import android.view.Gravity;
 import android.view.View;
 
 import org.commcare.adapters.HomeCardDisplayData;
@@ -46,11 +47,15 @@ public class HomeButtons {
         }
 
         HomeCardDisplayData[] allButtons = new HomeCardDisplayData[]{
-                HomeCardDisplayData.homeCardDataWithStaticText(Localization.get(homeMessageKey),
+                HomeCardDisplayData.homeCardDataWithNotification(Localization.get(homeMessageKey),
                         R.color.white,
-                        R.drawable.home_start,
-                        R.color.cc_attention_positive_color,
-                        getStartButtonListener(activity)),
+                        R.color.black,
+                        R.drawable.ic_home_start_aviro,
+                        R.color.white,
+                        R.color.cc_brand_text_aviro_dark,
+                        getStartButtonListener(activity),
+                        getStartButtonTextSetter(activity)
+                ),
                 HomeCardDisplayData.homeCardDataWithStaticText(Localization.get("training.root.title"), R.color.white,
                         R.drawable.home_training, R.color.cc_dark_cool_accent_color,
                         getTrainingButtonListener(activity)),
@@ -65,10 +70,10 @@ public class HomeButtons {
                         getIncompleteButtonListener(activity),
                         getIncompleteButtonTextSetter(activity)),
                 HomeCardDisplayData.homeCardDataWithNotification(Localization.get(syncKey), R.color.white,
+                        R.color.black,
+                        R.drawable.sync_aviro,
                         R.color.white,
-                        R.drawable.home_sync,
-                        R.color.cc_brand_color,
-                        R.color.cc_brand_text,
+                        R.color.cc_brand_text_aviro_light,
                         getSyncButtonListener(activity),
                         getSyncButtonTextSetter(activity)),
                 HomeCardDisplayData.homeCardDataWithStaticText(Localization.get("home.report"), R.color.white,
@@ -76,7 +81,7 @@ public class HomeButtons {
                         getReportButtonListener(activity)),
                 HomeCardDisplayData.homeCardDataWithNotification(Localization.get(logoutMessageKey), R.color.white,
                         R.color.white,
-                        R.drawable.home_logout, R.color.cc_neutral_color, R.color.cc_neutral_text,
+                        R.drawable.home_logout, R.color.cc_brand_color, R.color.cc_neutral_text,
                         getLogoutButtonListener(activity),
                         getLogoutButtonTextSetter(activity)),
         };
@@ -120,7 +125,15 @@ public class HomeButtons {
             squareButtonViewHolder.textView.setText(cardDisplayData.text);
         };
     }
-
+    private static TextSetter getStartButtonTextSetter(final StandardHomeActivity activity) {
+        return (cardDisplayData, squareButtonViewHolder, context, notificationText) -> {
+            squareButtonViewHolder.subTextView.setText(cardDisplayData.text.toUpperCase());
+            squareButtonViewHolder.subTextView.setGravity(Gravity.CENTER);
+            squareButtonViewHolder.subTextView.setBackgroundColor(activity.getResources().getColor(cardDisplayData.subTextBgColor));
+            squareButtonViewHolder.textView.setTextColor(context.getResources().getColor(cardDisplayData.textColor));
+            squareButtonViewHolder.textView.setText(cardDisplayData.text);
+        };
+    }
     private static View.OnClickListener getStartButtonListener(final StandardHomeActivity activity) {
         return v -> activity.enterRootModule();
     }

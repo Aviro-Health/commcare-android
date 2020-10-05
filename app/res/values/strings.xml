@@ -32,15 +32,15 @@
     <string name="manager_instructions">Select an app to view its management options, or install a new app.</string>
     <string name="pre_multiple_apps_warning">Warning: The app you have installed is from an outdated build.
         For full functionality of multiple application seating, please make a new build of your app.</string>
-    <string name="uninstall_reboot_warning">CommCare will uninstall your app and then reboot to save changes.</string>
-    <string name="logout_warning">In order to complete this action, CommCare must log out the currently logged-in app. Do you want to proceed?</string>
+    <string name="uninstall_reboot_warning">Engage will uninstall your app and then reboot to save changes.</string>
+    <string name="logout_warning">In order to complete this action, Engage must log out the currently logged-in app. Do you want to proceed?</string>
     <string name="logging_out">Logging out your app</string>
     <string name="uninstalling">Uninstalling your app</string>
     <string name="media_not_verified">Media Not Verified</string>
     <string name="media_verified">Media Validated!</string>
     <string name="no_installation">No app was installed!</string>
-    <string name="migration_definite_failure">CommCare was unable to migrate your app data for an upgrade. To resolve this issue, please uninstall CommCare from your device and then relaunch it.</string>
-    <string name="migration_possible_failure">CommCare was unable to migrate all of your data during an application upgrade. Please restart CommCare to try to fix this. If this message persists, you may need to \'Clear data\' for CommCare in your device\'s Settings menu.</string>
+    <string name="migration_definite_failure">Engage was unable to migrate your app data for an upgrade. To resolve this issue, please uninstall Engage from your device and then relaunch it.</string>
+    <string name="migration_possible_failure">Engage was unable to migrate all of your data during an application upgrade. Please restart Engage to try to fix this. If this message persists, you may need to \'Clear data\' for Engage in your device\'s Settings menu.</string>
     <string name="migration_failure_title">Migration Error</string>
     <string name="multiple_apps_limit_message">You have reached your limit of installed apps; you may only have up to 2 apps installed at once.\n\nIf you would like to install a new app, you may uninstall an existing app first, which can be done from the app manager.</string>
     <string name="back_to_manager">"Back to App Manager"</string>
@@ -49,12 +49,12 @@
     <string name="privilege_enabled_text">The following privileges are enabled on your device:\n\n %s</string>
     <string name="privilege_not_enabled_text">Special privileges are not enabled on your device.</string>
     <string name="privilege_claim_failed">Could not claim privileges</string>
-    <string name="privilege_claim_bad_version">Didn\'t recognize the privilege activation code. Please update CommCare</string>
+    <string name="privilege_claim_bad_version">Didn\'t recognize the privilege activation code. Please update Engage</string>
     <string name="privilege_instructions">If you have a superuser account on HQ, you can enable certain privileges on your device by going to the \'Enable Privileges on Mobile\' tab of your \'My Account Settings\' page, and then scanning the barcode that appears there.</string>
     <string name="see_available_apps">See Available Apps</string>
     <string name="install_from_list_prompt">Log in as a mobile or web user to see a list of apps you can install</string>
-    <string name="legacy_failure">CommCare does not support upgrading from the previous CommCare version you were using. To resolve this issue, please uninstall CommCare from your device and then reinstall it.</string>
-    <string name="legacy_failure_title">Incompatible CommCare Upgrade</string>
+    <string name="legacy_failure">Engage does not support upgrading from the previous Engage version you were using. To resolve this issue, please uninstall Engage from your device and then reinstall it.</string>
+    <string name="legacy_failure_title">Incompatible Engage Upgrade</string>
     <!-- endregion -->
 
     <integer-array name="commcare_version">
@@ -64,10 +64,10 @@
     </integer-array>
 
     <string name="app_version_string">version.id.long</string>
-    <string name="notificationtitle">Logged Into Commcare</string>
-    <string name="expirenotification">CommCare Login Expired</string>
+    <string name="notificationtitle">Logged Into Engage</string>
+    <string name="expirenotification">Engage Login Expired</string>
     <string name="submission_notification_title">Submitting Data</string>
-    <string name="submission_logs_title">Submitting CommCare Logs</string>
+    <string name="submission_logs_title">Submitting Engage Logs</string>
     <string name="remote_form_payload_url"/>
 
     <item name="login_screen_hide_all_cuttoff" type="integer">200</item>
@@ -78,7 +78,7 @@
     <string name="about_dialog" formatted="false" cc:translatable="true">%s\n\n_Copyright 2016, Dimagi inc, All rights reserved_ \n\n---------------- \n\n__Acknowledgements:__ \n\n%sSome images in CommCare are graciously used under Creative Commons Licensing from thenounproject.com collection:\n\n* “Door” symbol by Tak Imoto \n* “Pencil” symbol by Creologica \n* “Notebook” symbol by Carlo \n* “Antenna” symbol by Dima \n* “Map Marker” symbol by P.J. Onori \n* "List" by Landan Lloyd \n* broken screen by Sam Martin from the Noun Project \n\n
 
 </string>
-    <string name="notification_message_title">CommCare Notification</string>
+    <string name="notification_message_title">Engage Notification</string>
 
     <string-array name="frequency_vals">
         <item>freq-never</item>
@@ -151,8 +151,8 @@
 
     <string name="hello_world">Please enter your issues below</string>
     <string name="menu_settings">Settings</string>
-    <string name="permission_content_provider_label">Read Secure CommCare Data</string>
-    <string name="permission_content_provider_description">Allows this app to read data from CommCare while a user is logged in</string>
+    <string name="permission_content_provider_label">Read Secure Engage Data</string>
+    <string name="permission_content_provider_description">Allows this app to read data from Engage while a user is logged in</string>
     <string name="title_activity_report_problem">ReportProblemActivity</string>
     <string name="title_activity_comm_care_verification">CommCareVerificationActivity</string>
     <string name="panes">one</string>
@@ -160,16 +160,16 @@
 
     <string name="managed_configuration_username">Mobile Worker Username</string>
     <string name="managed_configuration_password">Mobile Worker Password</string>
-    <string name="managed_configuration_profile_url">CommCare App Link</string>
+    <string name="managed_configuration_profile_url">Engage App Link</string>
 
-    <string name="managed_configuration_username_description">The username of the CommCare mobile worker to login and restore on the device</string>
+    <string name="managed_configuration_username_description">The username of the Engage mobile worker to login and restore on the device</string>
     <string name="managed_configuration_password_description">The password of the mobile user</string>
-    <string name="managed_configuration_profile_url_description">The URL to your CommCare Application from the CommCareHQ publish page</string>
+    <string name="managed_configuration_profile_url_description">The URL to your Engage Application from the CommCareHQ publish page</string>
 
 
     <!-- Start Collect Strings -->
 
-    <string name="about_cc" cc:translatable="true">About CommCare</string>
+    <string name="about_cc" cc:translatable="true">About Engage</string>
     <string name="accept_location" cc:translatable="true">Record Location</string>
     <string name="accuracy" cc:translatable="true">Accuracy</string>
     <string name="activity_not_found" cc:translatable="true">No activity found to handle: %s</string>
@@ -345,19 +345,19 @@
 
     <string name="share" cc:translatable="true">Share</string>
     <string name="title_data_change_logs_activity" cc:translatable="true">Data Change Logs</string>
-    <string name="commcare_logs" cc:translatable="true">CommCare Data Change Logs</string>
+    <string name="commcare_logs" cc:translatable="true">Engage Data Change Logs</string>
 
     <!--Incorrect Target Screen-->
-    <string name="target_mismatch_lts_required" cc:translatable="true">App Requires CommCare LTS</string>
-    <string name="target_mismatch_lts_required_install" cc:translatable="true">Install CommCare LTS</string>
-    <string name="target_mismatch_lts_open" cc:translatable="true">Open CommCare LTS</string>
-    <string name="target_mismatch_lts_required_info" cc:translatable="true">Follow the link below to install CommCare LTS from the Play Store, and then try installing your app again.</string>
-    <string name="target_mismatch_lts_available_info" cc:translatable="true">This app requires CommCare LTS. Click the button below to open CommCare LTS, and then try installing your app again.</string>
-    <string name="target_mismatch_commcare_required" cc:translatable="true">App Requires CommCare(Non LTS)</string>
-    <string name="target_mismatch_commcare_required_install" cc:translatable="true">Install CommCare</string>
-    <string name="target_mismatch_commcare_open" cc:translatable="true">Open CommCare</string>
-    <string name="target_mismatch_commcare_required_info" cc:translatable="true">Follow the link below to install CommCare(Non LTS) from the Play Store, and then try installing your app again.</string>
-    <string name="target_mismatch_commcare_available_info" cc:translatable="true">This app requires CommCare(Non LTS). Click the button below to open CommCare, and then try installing your app again.</string>
+    <string name="target_mismatch_lts_required" cc:translatable="true">App Requires Engage LTS</string>
+    <string name="target_mismatch_lts_required_install" cc:translatable="true">Install Engage LTS</string>
+    <string name="target_mismatch_lts_open" cc:translatable="true">Open Engage LTS</string>
+    <string name="target_mismatch_lts_required_info" cc:translatable="true">Follow the link below to install Engage LTS from the Play Store, and then try installing your app again.</string>
+    <string name="target_mismatch_lts_available_info" cc:translatable="true">This app requires Engage LTS. Click the button below to open Engage LTS, and then try installing your app again.</string>
+    <string name="target_mismatch_commcare_required" cc:translatable="true">App Requires Engage(Non LTS)</string>
+    <string name="target_mismatch_commcare_required_install" cc:translatable="true">Install Engage</string>
+    <string name="target_mismatch_commcare_open" cc:translatable="true">Open Engage</string>
+    <string name="target_mismatch_commcare_required_info" cc:translatable="true">Follow the link below to install Engage(Non LTS) from the Play Store, and then try installing your app again.</string>
+    <string name="target_mismatch_commcare_available_info" cc:translatable="true">This app requires Engage(Non LTS). Click the button below to open Engage, and then try installing your app again.</string>
 
     <!--Incorrect Time Dialog-->
     <string name="incorrect_time_dialog_title" cc:translatable="true">Incorrect Time</string>
@@ -366,8 +366,8 @@
     <string name="incorrect_time_dialog_cancel" cc:translatable="true">Cancel</string>
 
     <!--Recovery Activity-->
-    <string name="recovery_mode_title" cc:translatable="true">CommCare Recovery Mode</string>
-    <string name="recovery_mode_detail" cc:translatable="true">CommCare has entered recovery mode due to a problem with your app. We are trying to recover your app. Please wait...</string>
+    <string name="recovery_mode_title" cc:translatable="true">Engage Recovery Mode</string>
+    <string name="recovery_mode_detail" cc:translatable="true">Engage has entered recovery mode due to a problem with your app. We are trying to recover your app. Please wait...</string>
     <string name="recovery_resource_progress" cc:translatable="true">Recovered %1$s out of %2$s resources</string>
     <string name="recovery_error_poor_connection" cc:translatable="true">Recovery failed due to bad internet. Please make sure that you have a stable internet connection and try again</string>
     <string name="recovery_error_unknown" cc:translatable="true">Recovery failed due to an unknown reason. Please try again or reinstall your app by going to App Manager</string>
@@ -385,19 +385,19 @@
     <string name="recovery_retry" cc:translatable="true">Retry Recovery</string>
 
     <string name="notification_channel_errors_title" cc:translatable="true">Errors</string>
-    <string name="notification_channel_errors_description" cc:translatable="true">Notifications for error messages when something breaks say on installing a CommCare app or while syncing forms with server</string>
+    <string name="notification_channel_errors_description" cc:translatable="true">Notifications for error messages when something breaks say on installing a Engage app or while syncing forms with server</string>
     <string name="notification_channel_user_session_title" cc:translatable="true">User Session</string>
     <string name="notification_channel_user_session_description" cc:translatable="true">Notification containing information around current user session like when the current session is scheduled to expire</string>
     <string name="notification_channel_server_communication_title" cc:translatable="true">Server Communications</string>
-    <string name="notification_channel_server_communication_description" cc:translatable="true">Notifications for status of any background server communication happening at the moment like CommCare App updates, log submission etc.</string>
+    <string name="notification_channel_server_communication_description" cc:translatable="true">Notifications for status of any background server communication happening at the moment like Engage App updates, log submission etc.</string>
 
     <!--Recovery Measures-->
     <string name="recovery_measure_reinstall_method" cc:translatable="true">Choose Reinstall Method</string>
     <string name="recovery_measure_reinstall_detail" cc:translatable="true">Your app needs to be reinstalled due to a problem, please select a method for reinstalling.</string>
     <string name="recovery_measure_reinstall_online_method" cc:translatable="true">Online Reinstall</string>
     <string name="recovery_measure_reinstall_offline_method" cc:translatable="true">Reinstall Using CCZ</string>
-    <string name="recovery_measure_detail" cc:translatable="true">Recovery procedures have been initiated for your CommCare App due to a problem with it. Please wait...</string>
-    <string name="recovery_measure_faiure" cc:translatable="true">An error occurred when CommCare tried to execute a recovery measure. We will try again later. If the problem persists please contact helpdesk</string>
+    <string name="recovery_measure_detail" cc:translatable="true">Recovery procedures have been initiated for your Engage App due to a problem with it. Please wait...</string>
+    <string name="recovery_measure_faiure" cc:translatable="true">An error occurred when Engage tried to execute a recovery measure. We will try again later. If the problem persists please contact helpdesk</string>
     <string name="recovery_measure_retry" cc:translatable="true">Retry Recovery</string>
     <string name="recovery_measure_app_reinstall_progress" cc:translatable="true">Reinstalling %1$s out of %2$s resources</string>
     <string name="recovery_measure_app_update_progress" cc:translatable="true">Updating %1$s out of %2$s resources</string>
@@ -431,6 +431,6 @@
     <string name="area_format" cc:translatable="true">%1s sq m</string>
     <string name="parse_coordinates_failure" cc:translatable="true">Could not parse input coordinates</string>
     <string name="location_provider_disabled" cc:translatable="true">Turn on your location to receive location updates</string>
-    <string name="wait_for_location_fix"  cc:translatable="true">CommCare is still trying to get your location. Please wait or click Cancel to abort.</string>
+    <string name="wait_for_location_fix"  cc:translatable="true">Engage is still trying to get your location. Please wait or click Cancel to abort.</string>
     <string name="invalid_case_property_length" cc:translatable="true">Invalid %1s, value must be 255 characters or less</string>
 </resources>

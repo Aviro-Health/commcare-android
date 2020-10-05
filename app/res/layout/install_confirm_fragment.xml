@@ -37,7 +37,7 @@
                     android:paddingRight="@dimen/content_start"
                     android:paddingTop="@dimen/content_start"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/aviro_logo_black_slogan"
+                    android:src="@drawable/ic_ithaka_logo"
                     android:paddingEnd="@dimen/content_start"
                     android:paddingStart="@dimen/content_start" />
 

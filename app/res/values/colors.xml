@@ -81,6 +81,9 @@
     <color name="cc_brand_color">#8F6CCB</color>
     <color name="cc_brand_bg">#BCDEFF</color>
     <color name="cc_brand_text">#002C5F</color>
+    <color name="cc_brand_text_aviro_light">#E0F4F1</color>
+    <color name="cc_brand_text_aviro_dark">#63C9B9</color>
+    <color name="cc_brand_progress_bar_aviro">#535252</color>
 
     <!-- Neutral -->
     <color name="cc_neutral_color">#685C53</color>
